@@ -2,10 +2,6 @@ import telebot
 import requests
 import json
 
-""" Этот бот позволяет узнать погоду в любом городе, достаточно просто написать название города
-Для этого бота мы использовали сайт open weather: https://openweathermap.org
-На сайте есть подробное описание, как работает API и какие функции у него есть"""
-
 
 bot = telebot.TeleBot('Your bot API')
 
